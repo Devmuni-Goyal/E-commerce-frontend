@@ -48,7 +48,7 @@ function Signup() {
           <input type="" name = "email" placeholder="Enter your email" required onChange={(e)=>{setEmail(e.target.value)}} />
           <div>password: </div>
           <input type="" name = "password" placeholder="Enter your password" required onChange={(e)=>setPassword(e.target.value)}/>
-          <div>Confirm Password: </div>
+          <div>sConfirm Password: </div>
           <input type="" name = "password" placeholder="Enter your password" required onChange={(e)=>setConfirmPassword(e.target.value)}/>
         </div>
         <button type="submit" class="next-btn">Register</button>
